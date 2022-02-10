@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <malloc.h>
-#define N  10000000
+#define N  100000000
 #define M_PI		3.14159265358979323846
 
 int main()
