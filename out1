@@ -3,17 +3,17 @@ libcupti.so not found
 Accelerator Kernel Timing data
 /home/d.pervuchin/Source1.c
   main  NVIDIA  devicenum=0
-    time(us): 3,300
+    time(us): 3,299
     17: compute region reached 1 time
         19: kernel launched 1 time
             grid: [65535]  block: [128]
             elapsed time(us): total=149 max=149 min=149 avg=149
         19: reduction kernel launched 1 time
             grid: [1]  block: [256]
-            elapsed time(us): total=105 max=105 min=105 avg=105
+            elapsed time(us): total=103 max=103 min=103 avg=103
     17: data region reached 2 times
         17: data copyin transfers: 4
-             device time(us): total=3,277 max=1,364 min=10 avg=819
+             device time(us): total=3,276 max=1,365 min=9 avg=819
         22: data copyout transfers: 1
              device time(us): total=23 max=23 min=23 avg=23
--2.853394e-02
+-1.552582e-02
